@@ -43,6 +43,11 @@ Inspired by and improving upon the research paper:
 │   ├── 04_benchmarking_ablations_and_latency.ipynb             # Phase 9-11: Efficiency, VRAM, and ablation experiments
 │   └── 05_deberta_vs_recommender_comparative_benchmark.ipynb   # Phase 12: 5-seed DeBERTa-v3 classification vs. Recommender
 │
+├── testing/                                                    # Model testing & verification suite
+│   ├── README.md                                               # Testing suite documentation & Colab badge
+│   ├── nutriadapt_model_testing_colab.ipynb                    # Interactive Colab testing notebook (HF model load & check)
+│   └── test_inference.py                                       # Standalone CLI inference & output audit script
+│
 ├── reports/                                                    # Empirical audits & comparative research documents
 │   ├── dataset_audit.md                                        # Rigorous data quality & feasibility audit report
 │   └── comparative_study_nutrirec_vs_deberta.md                # 8-flaw methodological audit of Deng & Tu (2026) & metric crosswalk
