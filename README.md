@@ -45,8 +45,7 @@ Inspired by and improving upon the research paper:
 │
 ├── testing/                                                    # Model testing & verification suite
 │   ├── README.md                                               # Testing suite documentation & Colab badge
-│   ├── test_inference.ipynb                                    # Interactive Colab notebook conversion of test_inference.py
-│   ├── nutriadapt_model_testing_colab.ipynb                    # Comprehensive Colab testing & diagnostic playground
+│   ├── nutriadapt_model_testing_colab.ipynb                    # Interactive Colab testing notebook (HF model load & check)
 │   └── test_inference.py                                       # Standalone CLI inference & output audit script
 │
 ├── reports/                                                    # Empirical audits & comparative research documents
