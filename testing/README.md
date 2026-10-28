@@ -10,11 +10,15 @@ This folder provides a testing framework to load, evaluate, and audit the fine-t
 
 ## 🚀 1. Run in Google Colab (Recommended)
 
-You can run the interactive testing notebook directly in Google Colab with free T4 GPU support:
+You can run the interactive testing notebooks directly in Google Colab with free T4 GPU support:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eNVy047/Capstone-PersonalAI-Health-System/blob/main/testing/nutriadapt_model_testing_colab.ipynb)
+- **`test_inference.ipynb` (Direct notebook conversion of `test_inference.py`)**:  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eNVy047/Capstone-PersonalAI-Health-System/blob/main/testing/test_inference.ipynb)
 
-### Features in the Colab Notebook (`nutriadapt_model_testing_colab.ipynb`):
+- **`nutriadapt_model_testing_colab.ipynb` (Full Testing & Verification Suite)**:  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eNVy047/Capstone-PersonalAI-Health-System/blob/main/testing/nutriadapt_model_testing_colab.ipynb)
+
+### Features in the Notebooks:
 1. **Auto Hardware Detection**: Detects NVIDIA GPU (T4 / A100) with 4-bit NF4 quantization or falls back cleanly to CPU mode.
 2. **Hugging Face Import**: Automatically fetches base weights and attaches the `narayah90/nutriadapt-qwen-3b-nutrition` PEFT adapter.
 3. **Structured Task Tests**:
